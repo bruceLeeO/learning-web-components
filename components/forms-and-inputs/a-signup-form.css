@@ -1,0 +1,56 @@
+body {
+	padding: 1% 1%;
+	border: 2px solid #edf;
+	background-color: #dac;
+	margin: auto;
+}
+
+div {
+	background-color: #dac;
+	margin: auto;
+	padding: 1% 1%;
+	border: 2px solid #dff;
+}
+
+p {
+	font-size: 16px;
+	padding: 1% 1%;
+	border: 2px solid #eeb;
+	text-transform: uppercase;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #eaa;
+	margin: auto;
+	background-color: #cff;
+}
+
+.form {
+	background-color: #eee;
+	padding: 1% 1%;
+	border: 2px solid #eff;
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.text {
+	text-transform: uppercase;
+	color: #fac;
+	font-size: 16px;
+	line-height: 1.5em;
+	border: 2px solid #fbb;
+	padding: 1% 1%;
+	background-color: #cef;
+}
+
+input {
+	line-height: 24px;	
+	color: #ade;
+	font-size: 24px;
+	/*text-transform: uppercase;*/
+	background-color: #eaa;
+	padding: 1% 1%;
+	border: 2px solid #aee;
+}
+
+#button {
+	text-transform: uppercase;
+	font-weight: 500;	

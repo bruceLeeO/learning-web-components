@@ -1,0 +1,36 @@
+body {
+	border: 2px solid #dcd;
+	padding: 1% 1%;
+}
+
+div {
+	border: 2px solid #ebe;
+	padding: 1% 1%;
+}
+
+form {
+	border: 2px solid #faf;
+	padding: 1% 1%;
+	display: inline-block;
+	text-transform: uppercase;
+	background-color: #ebe;
+	font-size: 20px;
+	color: #dff;
+}
+
+.flavors {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #bac;
+}
+
+input {
+	font-size: 20px;
+	color: #fbc;
+}
+
+#ic-list {
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #eab;
+}
