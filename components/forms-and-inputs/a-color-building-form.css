@@ -1,0 +1,31 @@
+body {
+	margin: 2% 20% 2% 20%;
+	border: 2px solid #aee;
+	padding: 5% 5% 5% 5%;
+	color: #aaa;
+	font-family: Helvetica;	
+	font-size: 28px;
+	text-transform: lowercase;
+}
+
+div {
+	border: 2px solid #aee;
+	margin: 2% 20% 2% 20%;
+	padding: 2% 2% 2% 2%;
+	background-color: #aff;
+	font-family: serif, sans-serif, cursive;
+	font-size: 11px;
+	color: #dcd;
+	text-transform: lowercase;
+}
+
+form {
+	border: 2px solid #aee;
+	margin: 2% 2% 2% 2%;
+	background-color: #cff;
+	padding: 2% 20% 2% 20%;
+	font-family: monospace, cursive, sans-serif;
+	color: #abb;
+	font-size: 18px;
+	text-transform: lowercase;
+}
