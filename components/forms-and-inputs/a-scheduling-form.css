@@ -1,0 +1,46 @@
+body {
+	margin: 2% 20% 20% 20%;
+}
+
+div {
+	margin: 2% 2% 2% 2%;
+	border: 2px solid #aaa;
+	padding: 2% 2% 2% 2%;
+	background-color: #eab;
+	display: inline-block;
+}
+
+form {
+	border: 2px solid #aaa;
+	margin: 2% 2% 2% 2%;
+	padding: 2% 2% 2% 2%;
+	text-transform: lowercase;
+	font-size: 24px;
+	font-family: cursive, monospace;
+	color: #aed;
+	background-color: #faa;
+}
+
+input {
+	font-size: 18px;
+}
+
+#button {
+	text-transform: lowercase;
+	font-family: cursive, monospace;
+	color: #abb;
+	background-color: #fff;
+	border: 3px inset #afc;
+}
+
+textarea {
+	font-size: 18px;
+	font-family: cursive, monospace, sans-serif;
+}
+
+h2 {
+	background-color: #abc;
+	color: #feb;
+	font-family: serif, sans-serif, monospace, cursive;
+	text-transform: uppercase;
+}
