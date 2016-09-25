@@ -1,0 +1,82 @@
+body {
+	margin: 2% 20% 2% 20%;
+	padding: 2% 2% 2% 2%;
+	border: 10px solid #aaa;
+	display: inline-block;
+	max-width: 100%;
+	min-width: 10%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+div {
+	margin: 2% 2% 2% 2%;
+	padding: 2% 2% 2% 2%;
+	border: 2px	solid #000;
+	line-height: 24px;
+	max-width: 100%;
+	min-width: 10%;
+	background-color: #ff0026;
+}
+
+form {
+	margin: 2% 2% 2% 2%;
+	padding: 2% 2% 2% 2%;
+	border: 2px solid #ccff33;
+	font-family: serif, sans-serif, cursive;
+	font-size: 18px;
+	/*color: #abb;*/
+	color: #ff0026;
+	text-transform: uppercase;
+	background-color: #000;
+	max-width: 100%;
+	min-width: 10%;
+}
+
+input {
+	margin: 2% 2% 2% 2%;
+	padding: 2% 2% 2% 2%;
+	border: 2px solid #123;	
+}
+
+.month {
+	margin: 2% 2% 2% 2%;
+	padding: 2% 2% 2% 2%;
+	border: 2px solid #123;		
+	font-family: cursive;
+	font-size: 18px;	
+	font-weight: 800;
+	text-transform: uppercase;
+	background-color: #3333ff;
+	color: #ff9933;
+}
+
+.year {
+	margin: 2% 2% 2% 2%;
+	padding: 2% 2% 2% 2%;
+	border: 2px solid #123;	
+	font-family: cursive;
+	font-size: 18px;	
+	font-weight: 800;
+	text-transform: uppercase;
+	background-color: #3333ff;
+	color: #ff9933;
+}
+
+.button {
+	font-size: 18px;
+	font-family: cursive;
+	font-weight: 800;
+	text-transform: uppercase;
+	background-color: #009900;
+	border: 4px inset #ffff00;
+	color: #ff9933;
+}
+
+.hovered:hover {
+	color: #ff0026;
+	border-color: #ff0026;
+	background-color: #ffff00;
+}
