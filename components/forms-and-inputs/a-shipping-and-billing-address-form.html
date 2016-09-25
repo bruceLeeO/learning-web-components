@@ -7,39 +7,64 @@
 <body>
 	<div>
 		<form>
+			<fieldset>
+			<legend>Shipping and Billing Form</legend>
 			<div>
 				<h2>Enter a shipping address</h2>
-				First name<br>	
-				<input type="text" name="first-name"><br>
-				Last name<br>
-				<input type="text" name="last-name"><br>
-				Address<br>
-				<input type="text" name="address"><br>
-				City<br>
-				<input type="text" name="city"><br>
-				Country<br>
-				<input type="text" name="country"><br>
 			</div>
-			<br>
 			<div>
-				<input type="checkbox" name="same-address" id="chekbox" size="large" >Check if shipping address is the same as billing address
+				<label class="lable"for="first-name">First name:</label>	
+				<input type="text" name="first-name">
 			</div>
+			<div>
+				<label class="lable"for="last-name">Last name:</label>
+				<input type="text" name="last-name">
+			</div>
+			<div>
+				<label class="lable"for="address">Address:</label>
+				<input type="text" name="address">
+			</div>
+			<div>
+				<label class="lable"for="city">City:</label>
+				<input type="text" name="city">
+			</div>
+			<div>
+				<label class="lable"for="country">Country:</label>
+				<input type="text" name="country">
+			</div>
+			<div><hr></div>
+			<div>
+				<input type="checkbox" name="same-address" id="chekbox" class="checkbox" size="large" >
+				<label class="checkbox-label" for="checking">Check if shipping is the same as billing address</label>
+			</div>
+			<div><hr></div>
 			<div>
 				<h2>Enter a billing address</h2>
-				First name<br>	
-				<input type="text" name="first-name"><br>
-				Last name<br>
-				<input type="text" name="last-name"><br>
-				Address<br>
-				<input type="text" name="address"><br>
-				City<br>
-				<input type="text" name="city"><br>
-				Country<br>
-				<input type="text" name="country"><br>				
+			</div>
+			<div>
+				<label class="lable"for="first-name">First name:</label>	
+				<input type="text" name="first-name">
+			</div>
+			<div>
+				<label class="lable"for="last-name">Last name:</label>
+				<input type="text" name="last-name">
+			</div>
+			<div>
+				<label class="lable"for="address">Address:</label>
+				<input type="text" name="address">
+			</div>
+			<div>
+				<label class="lable"for="city">City:</label>
+				<input type="text" name="city">
+			</div>
+			<div>
+				<label class="lable"for="country">Country:</label>
+				<input type="text" name="country">
 			</div>
 			<div>
 				<input type="button" name="button" value="Update" id="button">
 			</div>
+			</fieldset>
 		</form>
 	</div>
 </body>
