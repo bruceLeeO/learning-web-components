@@ -1,46 +1,58 @@
-body {
-	margin: 2% 20% 20% 20%;
-}
-
-div {
-	margin: 2% 2% 2% 2%;
-	border: 2px solid #aaa;
-	padding: 2% 2% 2% 2%;
-	background-color: #eab;
-	display: inline-block;
-}
-
 form {
-	border: 2px solid #aaa;
-	margin: 2% 2% 2% 2%;
-	padding: 2% 2% 2% 2%;
-	text-transform: lowercase;
-	font-size: 24px;
-	font-family: cursive, monospace;
-	color: #aed;
-	background-color: #faa;
+	margin: 0 auto;
+	width: 500px;
+	padding: 1em;
+	border:	1px solid #ccc000;
+	border-radius: 1em;
+	background-color: #ccc;
 }
 
-input {
-	font-size: 18px;
+form div + div {
+	margin-top: .25em;
+}
+
+label {
+	font-family: cursive;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1em;
+	color: #bcbc00;
+}
+
+input, textarea {
+	font: 1em sans-serif;
+	width: 480px;
+	box-sizing: border-box;
+}
+
+textarea:hover {
+	border: 3px solid #00ffcc;
+}
+
+select {
+	font: .9em sans-serif;	
 }
 
 #button {
-	text-transform: lowercase;
-	font-family: cursive, monospace;
-	color: #abb;
-	background-color: #fff;
+	text-transform: uppercase;
+	font: 1em cursive;
+	font-weight: 700;
+	color: #ff0023;
+	background-color: #ceb;
 	border: 3px inset #afc;
+	border-radius: 1em;
 }
 
-textarea {
-	font-size: 18px;
-	font-family: cursive, monospace, sans-serif;
+#button:hover {
+	background-color: #008000;
+	color: #ffff00;
 }
 
 h2 {
 	background-color: #abc;
 	color: #feb;
-	font-family: serif, sans-serif, monospace, cursive;
+	font-family: cursive;
 	text-transform: uppercase;
+	text-align: center;
+	border-radius: 1em;
 }
