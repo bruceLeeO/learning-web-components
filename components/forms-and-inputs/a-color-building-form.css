@@ -1,31 +1,81 @@
-body {
-	margin: 2% 20% 2% 20%;
-	border: 2px solid #aee;
-	padding: 5% 5% 5% 5%;
-	color: #aaa;
-	font-family: Helvetica;	
-	font-size: 28px;
-	text-transform: lowercase;
-}
-
-div {
-	border: 2px solid #aee;
-	margin: 2% 20% 2% 20%;
-	padding: 2% 2% 2% 2%;
-	background-color: #aff;
-	font-family: serif, sans-serif, cursive;
-	font-size: 11px;
-	color: #dcd;
-	text-transform: lowercase;
-}
 
 form {
-	border: 2px solid #aee;
-	margin: 2% 2% 2% 2%;
-	background-color: #cff;
-	padding: 2% 20% 2% 20%;
-	font-family: monospace, cursive, sans-serif;
-	color: #abb;
-	font-size: 18px;
-	text-transform: lowercase;
+	margin: 0 auto;
+	height: 250px;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 1em;
+	width: 400px;
+	background-color: #ccc;
+}
+
+form div + div {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.label {
+	display: inline-block;
+	width: 90px;	
+	text-align: center;
+}
+
+#alpha {
+	background-color: #bfbfbf;
+	color: #00ff00;
+}
+
+#colo {
+	display: inline-block;
+	width: 90px;
+	text-align: center;
+	background-color: #bfbfbf;
+	color: #00ff00;
+}
+
+#colo-output {
+	width: 250px;
+}
+
+/* use with floats
+.label {
+	float: left;
+	border: 1px solid #aaa;
+	text-align: center;
+	width: 100px;
+}
+
+.dimma {
+	float: left;
+	border: 1px solid #aaa;
+}
+
+.colo {
+	float: left;
+	text-align: center;
+	border: 1px solid #aaa;
+}
+
+.w25 {
+	width: 24%;
+}
+
+.w50 {
+	width: 49%;
+}
+*/
+#red {
+	background-color: #ff0000;
+}
+
+#green {
+	background-color: #00ff00;
+}
+
+#blue {
+	background-color: #0000ff;
+}
+
+#b {
+	width: 50px;
 }

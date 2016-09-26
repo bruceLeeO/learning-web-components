@@ -5,26 +5,65 @@
 	<link rel="stylesheet" type="text/css" href="a-color-building-form.css">
 </head>
 <body>
-	Body
-	<div>
-		Div
-		<form>
-			Form
-			<h2>red</h2>
-			<input type="range" name="red" min="0" max="255" step="5">
-			<br>
-			<h2>green</h2>
-			<input type="range" name="green" min="0" max="255" step="5">
-			<br>
-			<h2>blue</h2>
-			<input type="range" name="blue"	min="0" max="255" step="5">
-			<br>
-			<h2>alpha</h2>
-			<input type="range" name="alpha" min="0" max="1" step="0.01">
-			<br>
-			<h2>color</h2>
-			<input type="text" name="color">
-		</form>
-	</div>
+
+<!-- cool but only works on single slider
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+<input type="range" id="a" value="50">100
++<input type="number" id="b" value="50">
+=<output name="x" for="a b"></output>
+</form>
+-->
+
+	<form>
+		<fieldset>
+		<legend>A Color Building Form</legend>
+		<div>
+			<label class="label w25" for="red" id="red">red</label>
+			<input class="dimma w25" type="range" name="red" min="0" max="255" step="5">
+		</div>
+		<div>
+			<label class="label w25" for="green" id="green">green</label>
+			<input class="dimma w25" type="range" name="green" min="0" max="255" step="5">
+		</div>
+		<div>
+			<label class="label w25" for="blue" id="blue">blue</label>
+			<input class="dimma w25" type="range" name="blue"	min="0" max="255" step="5">
+		</div>
+		<div>
+			<label class="label w25" for="alpha" id="alpha">alpha</label>
+			<input class="dimma w25" type="range" name="alpha" min="0" max="1" step="0.01">
+		</div>
+		<div>
+			<label class="colo w50" id="colo" for="color">color</label>
+			<input class="colo w50" id="colo-output" type="text" name="color">
+		</div>
+		</fieldset>
+	</form>
 </body>
 </html>
+
+<!-- use with floats
+		<div>
+			<label class="label w25" for="red" id="red">red</label>
+
+			<label class="label w25" for="green" id="green">green</label>
+
+			<label class="label w25" for="blue" id="blue">blue</label>
+
+			<label class="label w25" for="alpha" id="alpha">alpha</label>
+		</div>
+		<div>
+			<input class="dimma w25" type="range" name="red" min="0" max="255" step="5">
+
+			<input class="dimma w25" type="range" name="green" min="0" max="255" step="5">
+
+			<input class="dimma w25" type="range" name="blue"	min="0" max="255" step="5">
+
+			<input class="dimma w25" type="range" name="alpha" min="0" max="1" step="0.01">
+		</div>
+		<div>
+			<label class="colo w50" for="color">color</label>
+
+			<input class="colo w50" type="text" name="color">
+		</div>
+-->
