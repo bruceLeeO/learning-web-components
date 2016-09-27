@@ -5,18 +5,24 @@
 	<link rel="stylesheet" type="text/css" href="a-login-form.css">
 </head>
 <body>
-	<div>
-		<h4>No Account? <a href="#">Sign up here</a></h4>
-		<form>
-			<h2>Login to your account</h2>
-			<h3>Username:</h3>
+	<form>
+		<fieldset>
+		<legend>Login to your account</legend>
+		<div>
+			<label for="sign-up" id="prompt">No Account?</label> <a href="#">Sign up here</a>
+		</div>
+		<div>
+			<label for="username">Username: </label>
 			<input type="text" name="username" id="txt">
-			<br>
-			<h3>Password:</h3>
+		</div>
+		<div>
+			<label for="password">Password: </label>
 			<input type="password" name="Password" id="pswd">
-			<br><br>
-			<input type="button" value="Login" id="button">
-		</form>
-	</div>
+		</div>
+		<div>
+			<button name="button">Login</button>
+		</div>
+		</fieldset>
+	</form>
 </body>
 </html>
