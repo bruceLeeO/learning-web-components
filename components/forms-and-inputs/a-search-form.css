@@ -1,21 +1,44 @@
-body {
-	border: 2px solid #dcd;
-	padding: 1% 1%;
-}
-
-div {
-	border: 2px solid #ebe;
-	padding: 1% 1%;
+legend {
+	border: 2px solid #faf;
+	text-transform: capitalize;
+	background-color: #ebe;
+	font-size: 16px;
+	font-style: italic;
+	color: #dff;
+	font-family: cursive;
 }
 
 form {
-	border: 2px solid #faf;
-	padding: 1% 1%;
-	display: inline-block;
-	text-transform: uppercase;
+	margin: 0 auto;
+	width: 400px;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 1em;
 	background-color: #ebe;
+}
+
+form div + div {
+	margin-top: 1em;
+}
+
+label {
+	display: inline-block;
+	width: 	100px;
+	text-align: right;
+	font-size: 16px;
+	font-style: italic;
+	color: #dff;	
+	font-family: cursive;
+}
+
+input {
 	font-size: 20px;
-	color: #dff;
+	color: #fbc;
+	width: 210px;
+}
+
+select {
+	width: 215px;
 }
 
 .flavors {
@@ -24,13 +47,11 @@ form {
 	color: #bac;
 }
 
-input {
+button {
+	text-transform: capitalize;
 	font-size: 20px;
-	color: #fbc;
-}
-
-#ic-list {
-	text-transform: uppercase;
-	font-size: 20px;
-	color: #eab;
+	color: #dff;
+	background-color: #ff0066;
+	font-family: cursive;
+	font-style: italic;
 }
