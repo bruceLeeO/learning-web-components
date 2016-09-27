@@ -1,62 +1,72 @@
-body {
-	padding: 10% 10% 10% 10%;
-	border: 2px solid #eee;
-	background-color: #dfe;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 5%;
-	margin-top: 5%;
-}
-
-div {
-	background-color: #cdf;
-	border: 5px solid #eee;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 5%;
-	margin-top: 5%;
-	padding: 2% 2% 2% 2%;
-}
-
-h2 {
+legend {
 	font-family: serif, monospace, sans-serif;
 	text-transform: uppercase;
 	background-color: #bfb;
 	border: 5px	solid #eee;
 	color: #aaf;
-	margin: 2% 2% 2% 2%;
-	padding: 2% 2% 2% 2%;
 }
 
 form {
-	background-color: #bfa;
-	border: 5px solid	#eee;
-	font-family: fantasy, sans-serif, serif;
-	font-size: 18px;
-	text-transform: uppercase;
-	color: #aba;
-	margin: 2% 2% 2% 2%;
-	padding: 2% 2% 2% 2%;
-	line-height: 2em;
+	margin: 0 auto;
+	width: 400px;
+	padding: 1em;
+	border:	1px solid #cba;
+	border-radius: 1em;
+	background-color: #ffff33;
 }
 
-#other-txt {
+form div + div {
+	margin-top: .75em;
+}
+
+label {
+	background-color: #bfff00;
+	border: 1.5px solid	#eee;
+	border-radius: .75em;
+	font-family: fantasy;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #aba;
+	width: 120px;
+	display: inline-block;
+	text-align: left;
+}
+
+input[type="radio"]:hover+label {
+	background-color: #ff0000;
+}
+
+input[type="radio"]:checked+label {
+	background-color: #ff0000;
+}
+
+label:hover {
+	background-color: #ff0000;	
+}
+
+.other-txt {
 	font-family: monospace;, cursive, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 800;
 	color: #bfa;
 	text-transform: uppercase;
 	background-color: #aae;
 }
 
-#button {
-	font-family: cursive, fantasy,sans-serif;
-	font-size: 18px;
+.other-txt:hover {
+	background-color: #ff0000;
+}
+
+button {
+	font-family: cursive;
+	font-size: 16px;
 	font-weight: 800px;
 	text-transform: uppercase;
 	color: #ddd;
 	background-color: #bbb;
-	margin: 2% 2% 2% 2%;
-	padding: 2% 2% 2% 2%;
 	border: 5px inset #eee;
+}
+
+button:hover {
+	background-color: #ff0000;
 }

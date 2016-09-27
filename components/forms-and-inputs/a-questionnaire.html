@@ -5,17 +5,32 @@
 	<link rel="stylesheet" type="text/css" href="a-questionnaire.css">
 </head>
 <body>
-<div>
-	<h2>Your favorite Greek Meal:</h2>
 	<form>
-		<input type="radio" name="meal" value="lemon-chicken" checked> Lemon Chicken <br>
-		<input type="radio" name="meal" value="babaganoush"> Babaganoush <br>
-		<input type="radio" name="meal" value="gyro"> Gyro <br>
-		<input type="radio" name="meal" value="kabob"> Kabob <br>
-		<input type="radio" name="meal" value="other"> Other 
-		<input type="text" name="other" value="Type your fave here!" id="other-txt"> <br>
-		<input type="submit" value="Submit" id="button">
+	<fieldset>
+	<legend>Your favorite Greek Meal</legend>
+		<div>
+			<input type="radio" name="meal" id="meal-1" value="lemon-chicken" checked> <label for="meal-1">Lemon Chicken</label>	
+		</div>
+		<div>
+			<input type="radio" name="meal" id="meal-2" value="babaganoush"> <label for="meal-2">Babaganoush</label>	
+		</div>
+		<div>
+			<input type="radio" name="meal" id="meal-3" value="gyro"> <label for="meal-3">Gyro</label>
+		</div>
+		<div>
+			<input type="radio" name="meal" id="meal-4" value="kabob"> <label for="meal-4">Kabob</label>
+		</div>
+		<div>
+			<input type="radio" name="meal" id="meal-5" value="other"> <label for="meal-5">Other</label>
+			<input type="text" name="other" value="Type your fave here!" id="meal-5" class="other-txt">
+		</div>
+		<div>
+			<!--
+			<input type="submit" value="Submit" id="button">	
+			-->
+			<button name="submit" id="submit">Submit</button>
+		</div>
+	</fieldset>
 	</form>
-</div>
 </body>
 </html>
