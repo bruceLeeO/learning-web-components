@@ -1,56 +1,60 @@
-body {
-	padding: 1% 1%;
-	border: 2px solid #edf;
-	background-color: #dac;
-	margin: auto;
+legend {
+	font-size: 1em;
+	font-family: monospace;
+	font-style: italic;
+	text-transform: capitalize;
+	color: #ade;
+	border:	2px solid #666699;
+	background-color: #ffa500;
+	border-radius: .7em;
 }
 
-div {
-	background-color: #dac;
-	margin: auto;
-	padding: 1% 1%;
-	border: 2px solid #dff;
-}
-
-p {
-	font-size: 16px;
-	padding: 1% 1%;
-	border: 2px solid #eeb;
-	text-transform: uppercase;
-	font-family: Helvetica, Arial, sans-serif;
-	color: #eaa;
-	margin: auto;
-	background-color: #cff;
-}
-
-.form {
-	background-color: #eee;
+form {
+	margin: 0 auto;
+	width: 450px;
+	background-color: #339933;
 	padding: 1% 1%;
 	border: 2px solid #eff;
-	display: inline-block;
-	font-family: Helvetica, Arial, sans-serif;
+	border-radius: .85em;
 }
 
-.text {
-	text-transform: uppercase;
+form div + div {
+	margin-top: 1em;
+}
+
+label {
+	text-transform: capitalize;
 	color: #fac;
-	font-size: 16px;
-	line-height: 1.5em;
+	font-size: 22px;
+	font-family: monospace;
+	font-style: italic;
 	border: 2px solid #fbb;
-	padding: 1% 1%;
-	background-color: #cef;
+	background-color: #0099ff;
+	width: 190px;
+	text-align: right;
+	display: inline-block;
+	font-weight: 800;
+	border-radius: .95em
 }
 
 input {
-	line-height: 24px;	
-	color: #ade;
-	font-size: 24px;
-	/*text-transform: uppercase;*/
+	color: #ff3300;
+	font-size: 20px;
+	font-family: monospace;
+	font-style: italic;
 	background-color: #eaa;
-	padding: 1% 1%;
 	border: 2px solid #aee;
+	width: 200px;
+	box-sizing: border-box;
 }
 
-#button {
-	text-transform: uppercase;
+button {
+	font-size: 32px;
+	font-style: italic;
+	font-family: monospace;
+	text-transform: capitalize;
 	font-weight: 500;	
+	color: #990099;
+	background-color: #ffff00;
+	border-radius: 1.25em
+}

@@ -5,21 +5,36 @@
 	<link rel="stylesheet" type="text/css" href="a-signup-form.css">
 </head>
 <body>
-	<div  class="form">
-		<p>Please fill out the form to subcribe:</p>
-		<form class="text">
-		  First name:<br>
-		  <input type="text" name="firstname"><br>
-		  Last name:<br>
-		  <input type="text" name="lastname"><br>
-		  Email:<br>
-		  <input type="text" name="email"><br>
-		  Date of birth:<br>
-		  <input type="text" name="dob"><br>
-		  Password:<br>
-		  <input type="text" name="pswd"><br><br>
-		  <input type="submit" name="submit" id="button">
-		</form>
-	</div>
+	<form class="text">
+	<fieldset>
+	<legend>Sign up Here:</legend>
+		<div>
+			<label>First name:</label>
+			<input type="text" name="firstname">
+		</div>
+		<div>
+			<label>Last name:</label>
+			<input type="text" name="lastname">
+		</div>
+	  	<div>
+	  		<label>Email:</label>
+	  		<input type="email" name="email">
+	  	</div>
+	  	<div>
+	  		<label>Date of birth:</label>
+	  		<input type="date" name="dob">
+	  	</div>
+	  	<div>
+	  		<label>Password:</label>
+	  		<input type="password" name="pswd">
+	  	</div>
+	  	<div>
+	  		<!--
+	  		<input type="submit" name="submit" id="button">
+	  		-->	
+	  		<button>Sign up</button>	
+	  	</div>
+	</fieldset>
+	</form>
 </body>
 </html>
