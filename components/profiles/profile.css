@@ -18,6 +18,25 @@
 	height: 400px;
 }
 
+#top-menu {
+	float: left;
+	padding: 12px;
+	color: #fcefce;
+}
+
+.icon-button {
+	color: #0fe0fe;
+	font-size: 36px;
+}
+
+.icon-button:hover {
+	color: #ce0ce0;
+}
+
+i:hover {
+	transform: scale(1.25);
+}
+
 #leftbar {
 	background-color: #1ae6e0;
 	height: 1400px;
