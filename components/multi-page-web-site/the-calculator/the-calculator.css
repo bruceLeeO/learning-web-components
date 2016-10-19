@@ -2,6 +2,19 @@
 	box-sizing: border-box;
 }
 
+.icon-button {
+	color: #0fe0fe;
+	font-size: 36px;
+}
+
+.icon-button:hover {
+	color: #ce0ce0;
+}
+
+i:hover {
+	transform: scale(1.25);
+}
+
 form {
 	margin: 0 auto;
 	width: 320px;
