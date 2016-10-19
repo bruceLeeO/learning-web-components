@@ -1,3 +1,40 @@
+body {
+	background: url(coral-in-tank.jpg);
+	background-size: 1400px 800px;
+	background-repeat: no-repeat;
+}
+
+#topbar ul {
+  list-style-type: none;
+  /*background-color: #fcf000;*/
+  background-color: transparent;
+  overflow: hidden; 
+  position: fixed; 
+  top: 10px;
+  margin: 0;
+  padding: 0; 
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+#topbar .top-menu {
+ float: left; 
+}
+
+#topbar .top-menu a {
+  display: block;
+  text-decoration: none;
+  padding: 12px;
+  color: #ffff1a;
+  font-weight: 700;
+}
+
+#topbar .top-menu a:hover {
+  transform: scale(1.15);
+  color: #ce0ce0;
+}
+
+
 legend {
 	border: 2px solid #faf;
 	text-transform: capitalize;
@@ -9,7 +46,7 @@ legend {
 }
 
 form {
-	margin: 0 auto;
+	margin: 100px auto;
 	width: 400px;
 	padding: 1em;
 	border: 1px solid #ccc;
@@ -22,7 +59,7 @@ form div + div {
 }
 
 label {
-	display: inline-block;
+	display: block;
 	width: 	100px;
 	text-align: right;
 	font-size: 16px;
